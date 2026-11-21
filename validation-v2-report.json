@@ -1,0 +1,35 @@
+{
+  "ruleVersion": "crypto-inplay-v2",
+  "status": "RESEARCH_ONLY_NO_EDGE_PROOF",
+  "accounting": "paper fills; configured fees and slippage; no broker reconciliation or funding model",
+  "completeSession": true,
+  "end": {
+    "reason": "DURATION",
+    "realized": 0,
+    "equity": 10000,
+    "closedCount": 0,
+    "unresolved": []
+  },
+  "candidates": {
+    "news": 0,
+    "rvol": 0
+  },
+  "submitted": 0,
+  "signals": 0,
+  "closed": 0,
+  "netClosedUsd": 0,
+  "feesClosedUsd": 0,
+  "winRate": null,
+  "meanNetUsd": null,
+  "profitFactor": null,
+  "missingEntryEvidence": 0,
+  "decisionReasons": {
+    "NO_FRESH_NEWS": 15
+  },
+  "rejectionReasons": {},
+  "notes": [
+    "Decision counts are transition/5s observations, not independent samples or time shares.",
+    "Closed PnL excludes unresolved positions; inspect end.equity and end.unresolved.",
+    "Zero trades do not mean zero edge. This report cannot establish profitability."
+  ]
+}

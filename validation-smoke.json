@@ -1,0 +1,321 @@
+{
+  "run": "2026-11-07T18-26-01-610Z-22720",
+  "node": "v24.17.0",
+  "firstAt": 1794075963270,
+  "lastAt": 1794075983285,
+  "counts": [
+    {
+      "Name": "BOOK_SNAPSHOT",
+      "Count": 30
+    },
+    {
+      "Name": "ORDER_REJECTED",
+      "Count": 3
+    },
+    {
+      "Name": "RISK_HALT",
+      "Count": 1
+    },
+    {
+      "Name": "SESSION_END",
+      "Count": 1
+    },
+    {
+      "Name": "SIGNAL",
+      "Count": 3
+    },
+    {
+      "Name": "SPOOF_DETECTED",
+      "Count": 6
+    },
+    {
+      "Name": "STATE",
+      "Count": 100
+    },
+    {
+      "Name": "UNIVERSE",
+      "Count": 1
+    },
+    {
+      "Name": "WALL_CANDIDATE",
+      "Count": 23
+    },
+    {
+      "Name": "WALL_VERIFIED",
+      "Count": 12
+    },
+    {
+      "Name": "WS_OPEN",
+      "Count": 3
+    }
+  ],
+  "universe": {
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT",
+      "ZECUSDT",
+      "XRPUSDT",
+      "SOLUSDT",
+      "ONEUSDT",
+      "BNBUSDT",
+      "NEARUSDT",
+      "HYPEUSDT",
+      "UNIUSDT",
+      "TRXUSDT",
+      "XAUTUSDT",
+      "SUIUSDT",
+      "PUMPUSDT",
+      "ENAUSDT"
+    ],
+    "instruments": [
+      {
+        "symbol": "BTCUSDT",
+        "market": "spot",
+        "tick": 0.01,
+        "step": 1E-05,
+        "minQty": 1E-05,
+        "minNotional": 5
+      },
+      {
+        "symbol": "ETHUSDT",
+        "market": "spot",
+        "tick": 0.01,
+        "step": 0.0001,
+        "minQty": 0.0001,
+        "minNotional": 5
+      },
+      {
+        "symbol": "ZECUSDT",
+        "market": "spot",
+        "tick": 0.01,
+        "step": 0.001,
+        "minQty": 0.001,
+        "minNotional": 5
+      },
+      {
+        "symbol": "XRPUSDT",
+        "market": "spot",
+        "tick": 0.0001,
+        "step": 0.1,
+        "minQty": 0.1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "SOLUSDT",
+        "market": "spot",
+        "tick": 0.01,
+        "step": 0.001,
+        "minQty": 0.001,
+        "minNotional": 5
+      },
+      {
+        "symbol": "ONEUSDT",
+        "market": "spot",
+        "tick": 1E-06,
+        "step": 0.1,
+        "minQty": 0.1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "BNBUSDT",
+        "market": "spot",
+        "tick": 0.01,
+        "step": 0.001,
+        "minQty": 0.001,
+        "minNotional": 5
+      },
+      {
+        "symbol": "NEARUSDT",
+        "market": "spot",
+        "tick": 0.001,
+        "step": 0.1,
+        "minQty": 0.1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "HYPEUSDT",
+        "market": "spot",
+        "tick": 0.01,
+        "step": 0.001,
+        "minQty": 0.001,
+        "minNotional": 5
+      },
+      {
+        "symbol": "UNIUSDT",
+        "market": "spot",
+        "tick": 0.001,
+        "step": 0.01,
+        "minQty": 0.01,
+        "minNotional": 5
+      },
+      {
+        "symbol": "TRXUSDT",
+        "market": "spot",
+        "tick": 0.0001,
+        "step": 0.1,
+        "minQty": 0.1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "XAUTUSDT",
+        "market": "spot",
+        "tick": 0.01,
+        "step": 0.0001,
+        "minQty": 0.0001,
+        "minNotional": 5
+      },
+      {
+        "symbol": "SUIUSDT",
+        "market": "spot",
+        "tick": 0.0001,
+        "step": 0.1,
+        "minQty": 0.1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "PUMPUSDT",
+        "market": "spot",
+        "tick": 1E-06,
+        "step": 1,
+        "minQty": 1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "ENAUSDT",
+        "market": "spot",
+        "tick": 0.0001,
+        "step": 0.01,
+        "minQty": 0.01,
+        "minNotional": 5
+      },
+      {
+        "symbol": "BTCUSDT",
+        "market": "futures",
+        "tick": 0.1,
+        "step": 0.001,
+        "minQty": 0.001,
+        "minNotional": 50
+      },
+      {
+        "symbol": "ETHUSDT",
+        "market": "futures",
+        "tick": 0.01,
+        "step": 0.001,
+        "minQty": 0.001,
+        "minNotional": 20
+      },
+      {
+        "symbol": "ZECUSDT",
+        "market": "futures",
+        "tick": 0.01,
+        "step": 0.001,
+        "minQty": 0.001,
+        "minNotional": 5
+      },
+      {
+        "symbol": "XRPUSDT",
+        "market": "futures",
+        "tick": 0.0001,
+        "step": 0.1,
+        "minQty": 0.1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "SOLUSDT",
+        "market": "futures",
+        "tick": 0.01,
+        "step": 0.01,
+        "minQty": 0.01,
+        "minNotional": 5
+      },
+      {
+        "symbol": "ONEUSDT",
+        "market": "futures",
+        "tick": 1E-07,
+        "step": 1,
+        "minQty": 1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "BNBUSDT",
+        "market": "futures",
+        "tick": 0.01,
+        "step": 0.01,
+        "minQty": 0.01,
+        "minNotional": 5
+      },
+      {
+        "symbol": "NEARUSDT",
+        "market": "futures",
+        "tick": 0.001,
+        "step": 1,
+        "minQty": 1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "HYPEUSDT",
+        "market": "futures",
+        "tick": 0.001,
+        "step": 0.01,
+        "minQty": 0.01,
+        "minNotional": 5
+      },
+      {
+        "symbol": "UNIUSDT",
+        "market": "futures",
+        "tick": 0.001,
+        "step": 1,
+        "minQty": 1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "TRXUSDT",
+        "market": "futures",
+        "tick": 1E-05,
+        "step": 1,
+        "minQty": 1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "XAUTUSDT",
+        "market": "futures",
+        "tick": 0.01,
+        "step": 0.001,
+        "minQty": 0.001,
+        "minNotional": 5
+      },
+      {
+        "symbol": "SUIUSDT",
+        "market": "futures",
+        "tick": 0.0001,
+        "step": 0.1,
+        "minQty": 0.1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "PUMPUSDT",
+        "market": "futures",
+        "tick": 1E-06,
+        "step": 1,
+        "minQty": 1,
+        "minNotional": 5
+      },
+      {
+        "symbol": "ENAUSDT",
+        "market": "futures",
+        "tick": 1E-05,
+        "step": 1,
+        "minQty": 1,
+        "minNotional": 5
+      }
+    ],
+    "selection": "descending minimum of spot/futures 24h USDT quote volume; fixed for session"
+  },
+  "end": {
+    "reason": "DURATION",
+    "realized": 0,
+    "equity": 10000,
+    "closedCount": 0,
+    "unresolved": []
+  }
+}

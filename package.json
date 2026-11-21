@@ -1,0 +1,28 @@
+{
+  "name": "masa2-orderflow-paper",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/src/index.js",
+    "dev": "tsx src/index.ts",
+    "test": "tsx --test tests/*.test.ts",
+    "check": "npm run build && npm test",
+    "demo": "tsx src/demo.ts",
+    "report": "tsx src/researchReport.ts"
+  },
+  "dependencies": {
+    "ws": "^8.18.3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.0",
+    "@types/ws": "^8.18.1",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,357 @@
+
+> masa2-orderflow-paper@2.0.0 start
+> node dist/src/index.js --duration 15
+
+MASA 2 | public data only | PAPER / SIGNAL | discovering spot + perpetual universe...
+MASA 2 | PAPER | 2026-11-08T00:53:17.958Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta  │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 0 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:19.037Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta  │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 0 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:20.130Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta  │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00' │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 0 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:21.203Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '2285'   │ '0.83'  │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '23'     │ '1.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '57'     │ '1.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '5602'   │ '-0.68' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '7'      │ '-1.00' │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '31'     │ '1.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '10'     │ '-0.02' │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '5'      │ '1.00'  │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 0 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:22.232Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '379'    │ '-1.00' │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '1117'   │ '-1.00' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '2415'   │ '0.98'  │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'WAIT'  │ 0     │ '58008'  │ '-0.48' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '115'    │ '1.00'  │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '14'     │ '-1.00' │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '39'     │ '1.00'  │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '64'     │ '1.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 0 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:23.260Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '407996' │ '0.99'  │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '635'    │ '-0.79' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '16358'  │ '0.08'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'WAIT'  │ 0     │ '7'      │ '-1.00' │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'WAIT'  │ 0     │ '4198'   │ '-0.02' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '4975'   │ '0.99'  │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '7069'   │ '0.88'  │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '5'      │ '-1.00' │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '478'    │ '-1.00' │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '13547'  │ '-0.65' │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 3 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:24.295Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '1441'   │ '-0.52' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '10615'  │ '0.78'  │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '3465'   │ '1.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'WAIT'  │ 0     │ '5'      │ '1.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '2046'   │ '-0.54' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'WAIT'  │ 0     │ '7'      │ '-1.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '7'      │ '1.00'  │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'WAIT'  │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '35'     │ '-1.00' │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'WAIT'  │ 0     │ '19'     │ '-0.14' │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 3 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:25.324Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta  │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '219'    │ '1.00' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '1417'   │ '1.00' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '37'     │ '1.00' │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '3737'   │ '0.09' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '7'      │ '1.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '30'     │ '1.00' │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '58'     │ '1.00' │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00' │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '0'      │ '0.00' │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 3 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:26.348Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬──────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼──────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 2     │ '1969'   │ '0.15'  │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 3     │ '11839'  │ '1.00'  │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '9208'   │ '-0.59' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '14'     │ '-1.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '7'      │ '1.00'  │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴──────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 3 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:27.375Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬──────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼──────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 2     │ '151'    │ '1.00'  │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 2     │ '0'      │ '0.00'  │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 3     │ '25'     │ '-1.00' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '2270'   │ '0.49'  │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '19'     │ '-1.00' │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴──────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 3 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:28.407Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬──────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼──────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 2     │ '151'    │ '0.00'  │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '355'    │ '-1.00' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 4     │ '319'    │ '-1.00' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '196'    │ '1.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '2916'   │ '0.50'  │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '100'    │ '-1.00' │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '10'     │ '-1.00' │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴──────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 5 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:29.429Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬──────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼──────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 2     │ '909'    │ '-1.00' │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '20'     │ '-1.00' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 4     │ '43743'  │ '-0.99' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '223'    │ '1.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '956'    │ '-0.24' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '35'     │ '-1.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '107'    │ '-1.00' │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '50'     │ '-1.00' │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '22'     │ '1.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴──────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 5 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:30.450Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 2     │ '0'      │ '0.00'  │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 4     │ '99'     │ '-1.00' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '42'     │ '-1.00' │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '1913'   │ '-0.09' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '28'     │ '-1.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '30'     │ '1.00'  │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 1     │ '7'      │ '1.00'  │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 5 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:31.471Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬──────────────┬────────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state        │ spot   │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼──────────────┼────────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 2     │ '195035' │ '-1.00' │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 2     │ '2227'   │ '-0.75' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '8402'   │ '-0.72' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '28'     │ '0.00'  │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 1     │ '0'      │ '0.00'  │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '1056'   │ '-0.98' │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '8'      │ '1.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'WAIT' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '12'     │ '1.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE' │ 'OK'   │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+└─────────┴────────────┴─────────┴──────────────┴────────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 6 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:32.499Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬───────────────┬──────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state         │ spot │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼───────────────┼──────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'NOT_IN_PLAY' │ 'OK' │ 'OK'    │ 2     │ '7650'   │ '-1.00' │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '400'    │ '-0.50' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'NOT_IN_PLAY' │ 'OK' │ 'OK'    │ 2     │ '428'    │ '-0.87' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'NOT_IN_PLAY' │ 'OK' │ 'OK'    │ 0     │ '2062'   │ '-0.12' │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '7'      │ '-1.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '74'     │ '1.00'  │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 1     │ '0'      │ '0.00'  │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+└─────────┴────────────┴─────────┴───────────────┴──────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 6 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312
+MASA 2 | PAPER | 2026-11-08T00:53:32.843Z | NO REAL ORDERS
+┌─────────┬────────────┬─────────┬───────────────┬──────┬─────────┬───────┬──────────┬─────────┬──────────┐
+│ (index) │ symbol     │ inPlay  │ state         │ spot │ futures │ walls │ tape $/s │ delta   │ position │
+├─────────┼────────────┼─────────┼───────────────┼──────┼─────────┼───────┼──────────┼─────────┼──────────┤
+│ 0       │ 'BTCUSDT'  │ 'WATCH' │ 'NOT_IN_PLAY' │ 'OK' │ 'OK'    │ 2     │ '7726'   │ '-1.00' │ '-'      │
+│ 1       │ 'ETHUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '3971'   │ '-1.00' │ '-'      │
+│ 2       │ 'ZECUSDT'  │ 'WATCH' │ 'NOT_IN_PLAY' │ 'OK' │ 'OK'    │ 2     │ '3124'   │ '-0.98' │ '-'      │
+│ 3       │ 'XRPUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 4       │ 'SOLUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 5       │ 'ONEUSDT'  │ 'WATCH' │ 'NOT_IN_PLAY' │ 'OK' │ 'OK'    │ 0     │ '2362'   │ '0.24'  │ '-'      │
+│ 6       │ 'BNBUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '7'      │ '-1.00' │ '-'      │
+│ 7       │ 'NEARUSDT' │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '359'    │ '-1.00' │ '-'      │
+│ 8       │ 'UNIUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 1     │ '0'      │ '0.00'  │ '-'      │
+│ 9       │ 'HYPEUSDT' │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '200'    │ '-1.00' │ '-'      │
+│ 10      │ 'TRXUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 11      │ 'XAUTUSDT' │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 12      │ 'PUMPUSDT' │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 13      │ 'ENAUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+│ 14      │ 'SUIUSDT'  │ 'WATCH' │ 'DATA_STALE'  │ 'OK' │ 'OK'    │ 0     │ '0'      │ '0.00'  │ '-'      │
+└─────────┴────────────┴─────────┴───────────────┴──────┴─────────┴───────┴──────────┴─────────┴──────────┘
+Equity $10000.00 | realized net $0.0000 | fees $0.0000 | closed 0 | open 0 | spoof hypotheses 6 | signals 0 | rejected 0 (-)
+Journal: logs\2026-11-08T00-53-16-413Z-26312

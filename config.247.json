@@ -1,0 +1,34 @@
+{
+    "mode":  "paper",
+    "inPlay":  {
+                   "newsTtlMs":  900000,
+                   "maxNewsAgeMs":  300000,
+                   "minVolumeUsd":  500000,
+                   "minRvol":  3.5,
+                   "minReactionBps":  5,
+                   "minAggTicksPerSecond":  1,
+                   "maxSpreadBps":  10,
+                   "minRangeCostRatio":  2,
+                   "allowRvolCatalyst":  true,
+                   "rvolTtlMs":  300000
+               },
+    "symbolCount":  15,
+    "setups": ["A", "B", "C"],
+    "symbols":  [
+
+                ],
+    "levels":  50,
+    "riskUsd":  5,
+    "maxNotional":  500,
+    "maxGrossNotional":  1500,
+    "maxPositions":  3,
+    "maxDailyLoss":  50,
+    "makerFee":  0.0002,
+    "takerFee":  0.0004,
+    "slippageTicks":  1,
+    "requireCostCoverage":  true,
+    "record":  false,
+    "headless":  true,
+    "logDir":  "C:\\Users\\piard\\Documents\\Codex\\2026-11-07\\ek-g-rev-cretsiz-kurumsal-haber\\outputs\\masa2\\logs",
+    "runtimeDir":  "C:\\Users\\piard\\Documents\\Codex\\2026-11-07\\ek-g-rev-cretsiz-kurumsal-haber\\outputs\\masa2\\runtime"
+}

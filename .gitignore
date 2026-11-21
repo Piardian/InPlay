@@ -1,0 +1,11 @@
+node_modules/
+dist/
+logs/
+runtime/
+.env
+.env.*
+*.log
+*.pid
+*.lock
+!package-lock.json
+config.local.json
